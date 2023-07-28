@@ -1,0 +1,50 @@
+@import "reset.css";
+@import "components/avatar.css";
+@import "components/button.css";
+@import "components/card.css";
+@import "components/badge.css";
+@import "components/blog.css";
+@import "components/hero.css";
+@import "components/social.css";
+@import "shared/navigation.css";
+@import "shared/footer.css";
+@import "pages/post.css";
+
+:root {
+  --color-pale-lemon-yellow: #fff59e;
+  --color-dull-veridian-green: #008a68;
+  --color-deep-indigo: #000831;
+  --color-peach-red: #ff3319;
+  --color-nile-blue: #bfffe6;
+  --color-white: #ffffff;
+}
+
+body {
+  background-color: var(--color-peach-red);
+  color: var(--color-nile-blue);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+a {
+  color: var(--color-nile-blue);
+  text-decoration: none;
+}
+
+.container {
+  margin-inline: auto;
+  max-width: 85vw;
+  width: min(90vw, 85rem);
+}

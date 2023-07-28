@@ -1,0 +1,10 @@
+.social {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.social a:hover {
+  color: var(--color-deep-indigo);
+}

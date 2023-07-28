@@ -1,0 +1,7 @@
+.button {
+  border: 1px solid var(--color-deep-indigo);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  color: var(--color-deep-indigo);
+  cursor: pointer;
+}

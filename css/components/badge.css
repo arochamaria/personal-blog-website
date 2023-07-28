@@ -1,0 +1,13 @@
+.badge__container {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.badge {
+  color: var(--color-pale-lemon-yellow);
+  border: 1px solid var(--color-pale-lemon-yellow);
+  border-radius: 9999px;
+  padding: 0.2rem 1rem;
+}
