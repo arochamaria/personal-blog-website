@@ -7,7 +7,7 @@
   padding: 4rem 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .post {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "content content content content aside aside aside aside";
