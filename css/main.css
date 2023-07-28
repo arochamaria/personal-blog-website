@@ -12,8 +12,8 @@
 
 :root {
   --color-cornsilk: #fefae0;
-  --color-cinnabar: #eb482f;
-  --color-azul: #0571c4;
+  --color-penn-red: #ad1400;
+  --color-YInMn-blue: #05528f;
   --color-white: #ffffff;
   --color-black: #000000;
 }
@@ -39,11 +39,11 @@ h6 {
 
 a {
   text-decoration: none;
-  color: var(--color-azul);
+  color: var(--color-YInMn-blue);
 }
 
 a:hover {
-  color: var(--color-azul);
+  color: var(--color-YInMn-blue);
   text-decoration: underline;
 }
 
