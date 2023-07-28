@@ -4,3 +4,7 @@
   display: flex;
   gap: 2rem;
 }
+
+.social__title {
+  text-transform: uppercase;
+}
