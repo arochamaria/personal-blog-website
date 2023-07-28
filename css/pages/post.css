@@ -67,9 +67,8 @@
 }
 
 .related {
-  background-color: var(--color-pale-lemon-yellow);
+  border: 1px solid;
   border-radius: 12px;
-  color: var(--color-deep-indigo);
   padding: 1.5rem 1.5rem;
   margin-top: 2rem;
 }
@@ -82,7 +81,7 @@
 
 .related__list li {
   padding: 1rem 0;
-  border-bottom: 1px solid var(--color-deep-indigo);
+  border-bottom: 1px solid;
 }
 
 .related__list li:first-child {
@@ -92,10 +91,6 @@
 .related__list li:last-child {
   border-bottom: 0;
   padding-bottom: 0;
-}
-
-.related__list li a {
-  color: var(--color-deep-indigo);
 }
 
 .related .button {

@@ -4,7 +4,3 @@
   display: flex;
   gap: 2rem;
 }
-
-.social a:hover {
-  color: var(--color-deep-indigo);
-}

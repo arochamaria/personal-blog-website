@@ -1,5 +1,4 @@
 .card {
-  color: var(--color-nile-blue);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -54,8 +53,4 @@
 
 .card__footer a {
   display: inline-block;
-}
-
-.card__footer a:hover {
-  color: var(--color-deep-indigo);
 }

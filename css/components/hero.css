@@ -1,19 +1,14 @@
 .hero {
-  background-color: var(--color-nile-blue);
-  border-top: 1px solid var(--color-deep-indigo);
-  color: var(--color-deep-indigo);
+  border-top: 1px solid;
   font-size: 1.2rem;
-  padding: 5rem 0;
-  text-align: center;
+  padding: 4rem 0 0rem;
 }
 
 .hero__copy {
-  margin: 0 auto;
-  max-width: 40ch;
+  max-width: 50ch;
 }
 
 .hero__title {
-  color: var(--color-deep-indig);
   font-size: 3rem;
   margin: 0.75rem 0;
 }

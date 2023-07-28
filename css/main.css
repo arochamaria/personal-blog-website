@@ -11,17 +11,15 @@
 @import "pages/post.css";
 
 :root {
-  --color-pale-lemon-yellow: #fff59e;
-  --color-dull-veridian-green: #008a68;
-  --color-deep-indigo: #000831;
-  --color-peach-red: #ff3319;
-  --color-nile-blue: #bfffe6;
+  --color-cornsilk: #fefae0;
+  --color-azul: #0571c4;
   --color-white: #ffffff;
+  --color-black: #000000;
 }
 
 body {
-  background-color: var(--color-peach-red);
-  color: var(--color-nile-blue);
+  background-color: var(--color-cornsilk);
+  color: var(--color-black);
   font-family: "Inter", sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -35,12 +33,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a {
-  color: var(--color-nile-blue);
   text-decoration: none;
+  color: var(--color-azul);
+}
+
+a:hover {
+  color: var(--color-azul);
+  text-decoration: underline;
 }
 
 .container {
